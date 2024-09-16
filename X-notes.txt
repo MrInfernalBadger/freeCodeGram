@@ -1,0 +1,13 @@
+https://youtu.be/ImtZ5yENzgE?t=2532
+
+
+make:auth no longer supported, use
+    composer require laravel/ui
+    php artisan ui vue --auth
+    npm install
+    npm run dev
+
+
+RUN SERVER:
+php artisan serve
+npm run dev

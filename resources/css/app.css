@@ -1,0 +1,8 @@
+#logo {
+    color: blue;
+
+}
+
+#logo > p {
+    color: blue;
+}

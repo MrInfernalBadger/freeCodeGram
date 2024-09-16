@@ -1,8 +1,52 @@
 // Fonts
-@import url('https://fonts.bunny.net/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+* {
+    // border: 1px solid black;
+}
+
+
+#logo {
+    display: flex;
+
+}
+
+#logo > img {
+    height: 25px;
+    border-right: 1px solid #333;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+#follow-button {
+    border-radius: 10%;
+}
+
+#company-name {
+    font-size: 1.2rem;
+}
+
+#company-link {
+    font-size: 1rem;
+    // text-decoration: none;
+    color: black;
+}
+
+#carousel {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#carousel > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
